@@ -1,0 +1,50 @@
+.bg {
+    background-color: lightyellow;
+    #height: 100%;
+    #width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-family: Antic;
+    font-size: 25px;
+}
+
+.row-margin-top {
+    margin-top: 40px;
+}
+
+p {
+    font-family: Special Elite;
+    font-size: 20px;
+}
+
+.lead {
+    font-family: Satisfy;
+    font-size: 50px;
+    color: blue;
+}
+
+h1 {
+    font-family: Anton;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Bangers;
+    font-size: 30px
+}
+
+
