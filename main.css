@@ -1,50 +1,70 @@
 .bg {
-    background-color: lightyellow;
-    #height: 100%;
-    #width: 100%;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: linear-gradient(to right, lightgray, white);
+  #height: 100%;
+  #width: 100%;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    font-family: Antic;
-    font-size: 25px;
+/*.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: Antic;
+  font-size: 25px;
+}*/
+
+.nav-item {
+  font-family: Antic;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.nav-item .nav-link {
+  color: grey;
+}
+
+.nav-item .nav-link:hover {
+  color: black;
+}
+
+.row {
+  padding-top: 40px;
 }
 
 .row-margin-top {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 p {
-    font-family: Special Elite;
-    font-size: 20px;
+  font-family: Special Elite;
+  font-size: 20px;
+}
+
+.img-fluid {
+  padding-top: 10px;
 }
 
 .lead {
-    font-family: Satisfy;
-    font-size: 50px;
-    color: blue;
+  font-family: Satisfy;
+  font-size: 50px;
+  color: brown;
 }
 
 h1 {
-    font-family: Anton;
-    font-size: 40px;
+  font-family: Anton;
+  font-size: 40px;
 }
 
 h3 {
-    font-family: Bangers;
-    font-size: 30px
+  font-family: Bangers;
+  font-size: 30px;
 }
-
-

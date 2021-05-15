@@ -1,86 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>My Website</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Satisfy|Special Elite|Anton|Antic">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-
+  <head>
+    <title>Bootstrap_template</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bangers|Satisfy|Special Elite|Anton|Antic"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <div class="container text-center">
-        <h1>MADAO</h1>
+      <h1>MADAO</h1>
     </div>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <!-- Menu Items -->
-            <div class="collapse navbar-collapse" id="myNavBar">
-                <ul class="nav navbar-nav navbar-center">
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Podcasts</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Podcasts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <div class="container bg">
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <h3>Details</h3>
-                <p>
-                    <strong>Name:</strong><br />
-                    Madao<br />
-                    <strong>Age:</strong><br />
-                    20 years<br />
-                    <strong>Location:</strong><br />
-                    Thimphu, Bhutan        
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive img-circle" src="image/profile.jpg">
-            </div>
-
-            <div class="col-md-4 text-center">
-                <h3>About Me</h3>
-                <p>
-                    Hi! Madao is a self taught programmer who genuinely believes in the idea of autodidactism. Though he doesn't have much experience,
-                    he has a real passion for creating and learning new things.
-                <p>
-            </div>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h3>Details</h3>
+          <p>
+            <strong>Name:</strong><br />
+            Madao<br />
+            <strong>Age:</strong><br />
+            20 years<br />
+            <strong>Location:</strong><br />
+            Thimphu, Bhutan
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid rounded-circle" src="images/profile.jpg" />
         </div>
 
-        <div class="row row-margin-top">
-            <div class="text-center">
-                <p class="lead">"You have not lived today until you have done some thing for someone who can never repay you."<br /> -John Bunyan </p>
-            </div>
+        <div class="col-md-4 text-center">
+          <h3>About Me</h3>
+          <p>
+            Hi! Madao is a self taught programmer who genuinely believes in the
+            idea of autodidactism. Though he doesn't have much experience, he
+            has a real passion for creating and learning new things.
+          </p>
+
+          <p></p>
         </div>
+      </div>
 
-        <!--<footer class="bg-dark text-center text-white"> 
-            <ul>
-                <li><i class="fa fa-facebook-square"</i></li>
-                <li><i class="fa fa-instagram"</i></li>
-                <li><i class="fa fa-twitter"</i></li>
-                <li><i class="fa fa-youtube"</i></li>
-            </ul>
-        </footer>-->
+      <div class="row row-margin-top">
+        <div class="text-center">
+          <p class="lead">
+            "You have not lived today until you have done some thing for someone
+            who can never repay you."<br />
+            -John Bunyan
+          </p>
+        </div>
+      </div>
 
-    </div>
-    
-</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
